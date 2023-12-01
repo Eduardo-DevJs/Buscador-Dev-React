@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #141C30;
+}
+
+h2, p, h3 {
+  color: #fff;
+}
+
+.repos_followers_following{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #141C30;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.flex_col{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  color: #e2e2e2;
+}
